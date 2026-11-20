@@ -1,0 +1,8 @@
+*.jsonl
+*.safetensors
+*.bin
+*.pt
+checkpoints/
+outputs/
+__pycache__/
+.ipynb_checkpoints/
