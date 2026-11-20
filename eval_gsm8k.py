@@ -10,8 +10,8 @@ from gsm_utils import build_prompt_text, PREFILL, reference_value, score
 MODEL_NAME   = "Qwen/Qwen2.5-0.5B-Instruct"
 ADAPTER_PATH = None          # e.g. "/kaggle/working/rl_run/checkpoint-500" for SFT/RL models
 TAG          = "base"        # names the output files: base / sft / rl
-N_TEST       = 500           # size of the fixed test subset (first N test problems). Try 20 first!
-N_PASSK      = 200           # problems used for the sampled / pass@k evaluation (subset of N_TEST)
+N_TEST       = 20           # size of the fixed test subset (first N test problems). Try 20 first!
+N_PASSK      = 16           # problems used for the sampled / pass@k evaluation (subset of N_TEST)
 K            = 8             # samples per problem for pass@k
 TEMP         = 0.8
 MAX_NEW      = 512
