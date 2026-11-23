@@ -1,0 +1,26 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "tag": "base",
+  "n_test": 500,
+  "n_passk": 200,
+  "k": 8,
+  "temperature": 0.8,
+  "max_new_tokens": 512,
+  "gpu": "Tesla T4",
+  "greedy": {
+    "strict_acc": 0.334,
+    "lenient_acc": 0.41,
+    "format_rate": 0.8,
+    "avg_len_tokens": 122.796
+  },
+  "sampled": {
+    "pass@1_strict": 0.224375,
+    "pass@1_lenient": 0.3025,
+    "pass@8_strict": 0.595,
+    "pass@8_lenient": 0.68,
+    "format_rate": 0.66625,
+    "avg_len_tokens": 126.60125,
+    "all_same_groups": 0.345
+  }
+}
